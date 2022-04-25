@@ -15,4 +15,4 @@ MOVING FILES WITH NETCAT                nc -nvlp 9999 > /output/file/path       
 RUN THE SAME COMMAND ON LOTS OF FILES   find * >> files.txt
                                         for files in $(cat files.txt);do <command> $files;done   #iterates through files.txt and runs command on each one
 LOCATE PARTITIONS                       cat /proc/mtd
-MONITOR USB DEVICE ACTIVITY             sudo dmesg -w
+MONITOR PERIPHERAL DEVICE ACTIVITY      sudo dmesg -w
