@@ -18,6 +18,4 @@ LOCATE PARTITIONS                       cat /proc/mtd
 MONITOR PERIPHERAL DEVICE ACTIVITY      sudo dmesg -w
 REPLACE WITH SED                        sed -i 's/word1/word2/g' input.txt  #replaces word1 with word2 in the file, input.txt
                                                                             ^ = start of file, . = wildcard, .* = to end of file
-ENABLE SSH SERVER                       sudo service ssh start
-CHECK SSH SERVER STATUS                 sudo systemctl status ssh
-CREATE SIMLINK                          ln -s test_file.txt link_file.txt
+
